@@ -1,3 +1,89 @@
+# 🎲 BONCT LOTO PLUGIN - PREMIER RESOURCE-BASED BINGO
+
+██████╗  ██████╗ ███╗   ██╗ ██████╗████████╗
+██╔══██╗██╔═══██╗████╗  ██║██╔════╝╚══██╔══╝
+██████╔╝██║   ██║██╔██╗ ██║██║        ██║   
+██╔══██╗██║   ██║██║╚██╗██║██║        ██║   
+██████╔╝╚██████╔╝██║ ╚████║╚██████╗   ██║   
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝   ╚═╝   
+         B O N   C H Ơ I   T U Ố T
+
+🔥 Exclusively developed by BonCT for BonCity & the Minecraft Community! 🔥
+
+A next-generation Loto (Bingo) plugin that brings the traditional experience into Minecraft with a physical resource betting mechanism (Diamonds, Netherite, etc.), a sleek integrated GUI, Resource Pack support, and a brutal "Kinh Sộ" (False Bingo) punishment system to prevent exploits!
+
+---
+
+## 🌟 KEY FEATURES
+
+* 💎 Physical Resource Betting: Forget virtual currency (Vault)! Players use high-value items (Netherite, Diamonds, Enchanted Golden Apples, etc.) as their entry fee. The system automatically counts, collects, and distributes rewards.
+* 🖼️ Interactive GUI: Right-click your ticket to open the marking board. Click numbers to toggle states (Red -> Green). Marked data is permanently stored in the ticket's NBT (PersistentDataContainer).
+* 🎨 Resource Pack Support (CustomModelData): Easily replace boring glass panes with stunning 2D number textures. (Red IDs: 1001-1090, Green IDs: 2001-2090).
+* ⚡ "Kinh Sộ" Punishment (Anti-Troll): Dared to call Bingo without enough marked numbers?
+    * Compensation: The system clears your inventory to pay a 50% "scam fee" to other players.
+    * Penalty: Get thrown into jail (time doubles exponentially: 10m -> 20m -> 40m...) or get struck by lightning and die instantly!
+* 🛡️ Smart Refund System: If the host disconnects before starting? No problem. The server automatically cancels the lobby and refunds 100% of the resources to every participant.
+* ⚙️ Fully Configurable: Admins can change allowed materials, bet amounts, call intervals, toggle jail features, and translate 100% of the messages.
+
+---
+
+## 📥 INSTALLATION
+
+1.  Download BonLoto-1.0.jar.
+2.  Drop the .jar file into your server's plugins/ folder (Supports Spigot/Paper 1.21+).
+3.  (Optional) Install EssentialsX for the Jail feature (use-jail: true). Set up a jail named lotojail using /setjail lotojail.
+4.  Restart your server or use /reload.
+5.  Edit plugins/BonLoto/config.yml to your liking.
+6.  Use /loto reload in-game to apply changes.
+
+---
+
+## 📜 COMMANDS & PERMISSIONS
+
+| Command | Description | Permission |
+| :--- | :--- | :--- |
+| /loto start <material> <amount> | Open a lobby with a specific bet. | loto.start |
+| /loto join | Join the active lobby (Auto-pays fee). | loto.join |
+| /loto run | Start the game (Host or Admin only). | loto.run |
+| /loto recall | View all numbers called so far. | loto.recall |
+| /loto kinh | Call BINGO! (Auto-triggers via GUI). | loto.kinh |
+| /loto cancel | Cancel the match and refund (Admin only). | loto.admin |
+| /loto reload | Reload the config.yml file. | loto.admin |
+
+---
+
+## 🎮 HOW TO PLAY
+
+1.  Open Lobby: A host types /loto start netherite_ingot 8. They pay 8 Netherite and receive a Loto Ticket.
+2.  Join: Other players type /loto join. The server collects their 8 Netherite and gives them tickets.
+3.  Start: The host types /loto run. The server begins calling random numbers (default: 5s interval).
+4.  Marking: Right-click the ticket in your hand to open the GUI. If the server calls your number, click it to turn it Green.
+5.  Victory (KINH): Once you mark 5 green numbers on the same horizontal row, the GUI auto-closes and calls BINGO! After a 5-second window for ties, the total prize pool is split among the winners.
+
+---
+
+## 🎨 RESOURCE PACK GUIDE
+
+To display custom numbers in the GUI, apply a Resource Pack to the PAPER item using these CustomModelData IDs:
+* 1001 to 1090: Red Numbers (Unmarked) 1 to 90.
+* 2001 to 2090: Green Numbers (Marked) 1 to 90.
+
+---
+
+## 🌐 CONNECT WITH BONCT
+
+If you find this plugin useful, drop a Sub and join the Bon Chơi Tuốt community! Many exciting projects (BonCity, Game Localizations...) are in active development.
+
+* 📺 YouTube: https://youtube.com/@bonchoituot
+* 📘 Facebook: https://Facebook.com/bonchoituot
+* 👾 Discord: https://discord.gg/ZkbsgasDBW
+
+***
+
+Made with ❤️ by BonCT | © 2026 Bonchoituot
+
+==========================================
+
 # 🎲 BONCT LOTO PLUGIN - LÔ TÔ TÀI NGUYÊN
 ```text
 ██████╗  ██████╗ ███╗   ██╗ ██████╗████████╗
