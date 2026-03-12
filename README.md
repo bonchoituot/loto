@@ -1,4 +1,4 @@
-# 🎲 BONCT LOTO PLUGIN - SIÊU PHẨM LÔ TÔ TÀI NGUYÊN
+# 🎲 BONCT LOTO PLUGIN - LÔ TÔ TÀI NGUYÊN
 ```text
 ██████╗  ██████╗ ███╗   ██╗ ██████╗████████╗
 ██╔══██╗██╔═══██╗████╗  ██║██╔════╝╚══██╔══╝
